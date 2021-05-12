@@ -1,0 +1,142 @@
+:root {
+
+  /* Primary Colors */
+  --brightOrange: hsl(31, 77%, 52%);
+  --darkCyan: hsl(184, 100%, 22%);
+  --veryDarkCyan: hsl(179, 100%, 13%);
+
+  /* Neutral */
+  --transparentWhite: hsla(0, 0%, 100%, 0.75);
+  --veryLightGray: hsl(0, 0%, 95%);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--veryLightGray);
+  font-size: .9375em;
+}
+
+img {
+  width: 4em;
+  height: 2.5em;
+}
+
+
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 57.5em;
+    height: 31.25em;
+}
+
+.row {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: .5em;
+}
+
+
+.card {
+    width: 19.167em;
+    height: inherit;
+    border: none;
+    padding-right: 2em;
+    padding-left: 2.5em;
+    border-radius: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.heading {
+  color: var(--veryLightGray);
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 2.5em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  color: var(--transparentWhite);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: .9375em;
+  font-weight: 400;
+  opacity: .75;
+  line-height: 1.5625em;
+  word-spacing: .3em;
+
+}
+
+.btn-light {
+  border-radius: 2em;
+  width: 9.125em;
+}
+
+.btn-light:focus {
+  background-color: inherit;
+  color: var(--veryLightGray);
+}
+
+.btn-light:hover {
+  background-color: inherit;
+  color: var(--veryLightGray);
+}
+
+#sedans {
+    background-color: var(--brightOrange);
+    border-top-left-radius: inherit;
+    border-bottom-left-radius: inherit;
+
+}
+
+#sedans button {
+  color: var(--brightOrange);
+}
+
+#suvs {
+    background-color: var(--darkCyan);
+}
+
+#suvs button {
+  color: var(--darkCyan);
+}
+
+#luxury {
+    background-color: var(--veryDarkCyan);
+    border-top-right-radius: inherit;
+    border-bottom-right-radius: inherit;
+}
+
+#luxury button {
+  color: var(--veryDarkCyan);
+}
+
+.attribution {
+  font-size: .6875em;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
