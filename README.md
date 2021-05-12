@@ -1,6 +1,6 @@
 # Frontend Mentor - 3-column preview card component solution
 
-This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [3-column preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -14,7 +14,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
+
 
 **Note: Delete this note and update the table of contents based on what sections you keep.**
 
@@ -29,83 +29,58 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+Desktop
+![](images/Screenshot_FrontendMentor_3_column_preview_card_component_Desktop.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+Mobile
+![](images\Screenshot_FrontendMentor_3_column_preview_card_component_Mobile.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/VernonDodo/stats-preview-card-component.git](https://github.com/VernonDodo/stats-preview-card-component.git)
+- Live Site URL: [https://3-column-preview-card-component-phi.vercel.app/](https://3-column-preview-card-component-phi.vercel.app/)
 
 ## My process
+
+I looked at the design and pulled out all the common elements, such as the container, the cards, the headings, the paragraphs, and the buttons. Then I created CSS classes for each for the components. I also opted for a responsive pre-styled CSS package for the following reasons:
+- to avoid having to style elements down to their finest details
+- to, from the start, have a responsive design, which in turn reduced the code that I had to do for media queries.
+
+I then wrote the HTML, and, almost immediately, the design fell into place because of the CSS classes that I applied to it - this drastically reduced the total time on the project. All it needed after that, was further editing to bring the final product as close as possible to the original design.
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Styled Components](https://getbootstrap.com/) - For styles and responsive design
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I used a totally different approach with this project. Instead of writing the HTML first, I designed the styling, because that is what really gave the design its look. This approach also drastically reduced the time spent to complete this project.
 
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+Secondly, I opted for responsive design, which drastically reduced the number of lines of code I had to use for media queries. In previous projects, I used to write a seperate block of CSS code for media queries; this time around, I only had to apply different styling to a few components.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I would like to concentrate on design and wireframing, as it drastically reduces project time.
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Furthermore, I would like to increase the use of pre-styled CSS now that I'm familiar and sort of comfortable with using it.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Bootstrap](https://getbootstrap.com/) - As a pre-styled package, this was most useful in quickly putting pre-styled elements on a page. It does require a bit of further customization but not a lot. A further advantage is that it lends itself to responsive design.
+- [Bootstrap Container](https://getbootstrap.com/docs/5.0/layout/containers/) - Bootstrap containers are so versatile in that they embody all the properties that you need in a container element. Gone are the days of elements inside of your container falling outside the parameters for it. Container properties can also be utilized to make your design fully responsive, with breakpoints for the various viewport sizes.
+- [Bootstrap Columns](https://getbootstrap.com/docs/5.0/layout/columns/) - Bootstrap has an extensive collection of responsive column elements. This makes it so easy to design project that contain or are arranged on columns. The various column definitions are geared towards responsive design, with its explicit breakpoints for every column definition.
+- [Bootstrap Buttons](https://getbootstrap.com/docs/5.0/components/buttons/) - Why design and customize a button when Bootstrap has already done it all for you? Bootstrap has taken the hassle away by providing buttons of various shapes, sizes and appearances - very little customization is needed after using a Bootstrap button.
 
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Github - [Vernon Dodo](https://github.com/VernonDodo)
+- Frontend Mentor - [@VernonDodo](https://www.frontendmentor.io/profile/VernonDodo)
+- Twitter - [@likeavernon](https://twitter.com/LikeAVernon)
