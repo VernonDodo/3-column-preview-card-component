@@ -134,7 +134,7 @@ img {
 
 .attribution {
   font-size: .6875em;
-  text-align: center;
+  margin: 2em auto;
 }
 
 .attribution a {
